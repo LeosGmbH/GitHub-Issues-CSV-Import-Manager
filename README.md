@@ -20,13 +20,14 @@ A versatile Python script to bulk-manage GitHub Issues using a CSV file. It supp
    Create a CSV file with the following structure:
    ```csv
    title,body,labels,milestone
-   "Fix login bug","User can't login due to cookie error","bug,frontend",1
-   "Add dark mode","Implement dark mode toggle","feature,UI",
+   "Login bug","Cannot login","bug",1
+   "Add button","Need a button","enhancement,ui,feature",2
+   "Fix text","Text is wrong","bug,ui",1
    ```
 
 3. **Run the Script**
    ```bash
-   python import_issues.py
+   python issue_manager.py
    ```
    Follow the interactive prompts to configure your operation.
 
