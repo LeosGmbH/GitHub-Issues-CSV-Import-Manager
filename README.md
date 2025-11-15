@@ -52,20 +52,15 @@ A versatile Python script to bulk-manage GitHub Issues using a CSV file. It supp
 ## 🔧 Usage Modes
 
 ### Adding Issues
-1. Set up your CSV file with issue details
-2. Run the script and select 'add' mode
-3. Enter your GitHub credentials when prompted
+Adds all issues listed in the CSV file to your GitHub repository.
 
 ### Deleting Issues
-1. Create a CSV file with 'title' column matching issues to delete
-2. Run the script and select 'delete' mode
-3. The script will find and remove matching issues
+Deletes all issues on GitHub that have the same titles as those listed in your CSV file.
+
 
 ## 🔒 Authentication
 
-1. Generate a [Personal Access Token](https://github.com/settings/tokens) with these scopes:
-   - `repo` (for private repositories)
-   - `public_repo` (for public repositories)
+1. Generate a [Personal Access Token](https://github.com/settings/tokens) 
 
 ## ⚠️ Important Notes
 
