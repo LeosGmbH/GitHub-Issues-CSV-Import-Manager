@@ -1,0 +1,4 @@
+title,body,labels,milestone
+"Login bug","Cannot login","bug",1
+"Add button","Need a button","enhancement,ui,feature",2
+"Fix text","Text is wrong","bug,ui",1
