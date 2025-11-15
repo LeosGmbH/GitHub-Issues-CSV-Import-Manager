@@ -12,7 +12,7 @@ A versatile Python script to bulk-manage GitHub Issues using a CSV file. It supp
 ## 🚀 Quick Start
 
 
-### Clone the Repository
+1.** Clone the Repository**
 
 ```bash
 git clone https://github.com/LeosGmbH/GitHub-Issues-CSV-Import-Manager.git
@@ -20,12 +20,12 @@ cd GitHub-Issues-CSV-Import-Manager
 ```
 
 
-1. **Install Dependencies**
+2. **Install Dependencies**
    ```bash
    pip install requests
    ```
 
-2. **Prepare Your CSV**
+3. **Prepare Your CSV**
    Edit the CSV file in the Repo with the following structure:
    ```csv
    title,body,labels,milestone
@@ -34,7 +34,7 @@ cd GitHub-Issues-CSV-Import-Manager
    "Fix text","Text is wrong","bug,ui",1
    ```
 
-3. **Run the Script**
+4. **Run the Script**
    ```bash
    python issue_manager.py
    ```
