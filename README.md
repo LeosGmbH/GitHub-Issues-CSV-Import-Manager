@@ -17,7 +17,7 @@ A versatile Python script to bulk-manage GitHub Issues using a CSV file. It supp
    ```
 
 2. **Prepare Your CSV**
-   Create a CSV file with the following structure:
+   Edit the CSV file in the Repo with the following structure:
    ```csv
    title,body,labels,milestone
    "Login bug","Cannot login","bug",1
