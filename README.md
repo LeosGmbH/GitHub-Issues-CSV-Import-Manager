@@ -33,8 +33,9 @@ A versatile Python script to bulk-manage GitHub Issues using a CSV file. It supp
    "Add button","Need a button","enhancement,ui,feature",2
    "Fix text","Text is wrong","bug,ui",1
    ```
+4. **Make sure your milestones from the CSV actually exist in the GitHub repo**
 
-4. **Run the Script**
+5. **Run the Script**
    ```bash
    python issue_manager.py
    ```
